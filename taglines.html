@@ -1,0 +1,144 @@
+<html>
+<head>
+	<title>Tagline</title>
+	<style type="text/css">
+	body{
+		padding:60px 100px;
+		font-family: "Helvetica Neue"
+	}
+	.tagline{
+		width: 500px;
+	}
+	.tagline .border{
+		margin-left:50px;
+		border-left:1px dotted #444;
+		height:430px; /* height of the dotted border - adjust as you want */
+	}
+	.tagline ul{
+		padding:0px;
+		list-style: none;
+	}
+
+	.tagline ul li{
+		padding: 0px;
+		list-style: none;
+		margin-left: -25px;
+		margin-bottom: 20px;
+	}
+
+	.tagline ul li .counter{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		font-size: 26px;
+		float: left;
+		border: 1px solid #c0392b;
+		border-radius: 25px;
+		margin-right: 30px;
+		background-color: #fff;
+		color:#c0392b;
+		font-weight: bold;
+	}
+	.tagline ul li .text{
+		width: 370px;
+		clear:right;
+		float: left;
+		margin-bottom: 20px; /* gap between each list item */
+		padding-left: 14px;
+	}
+
+	.tagline ul li .text h2{
+		margin: 5px 0px;
+		padding:0px;
+		font-size: 14px;
+		color:#c0392b;
+	}
+
+	.tagline ul li .text p{
+		font-size: 13px;
+		line-height: 24px;
+		color: #444;
+	}
+
+	/* Headline */
+	.tagline ul li.headline{
+		margin-left: -40px;
+	}
+	.tagline ul li.headline .counter{
+		width: 80px;
+		height: 80px;
+		border-radius: 40px;
+		line-height: 90px;
+	}
+
+	.tagline ul li.headline .text{
+		width: 300px;
+		height: 80px;
+		border-radius: 40px;
+		margin-bottom: 50px; /* gap between heading and first list item */
+		padding-left: 0px;
+	}
+
+	.tagline ul li.headline .text h1{
+		color: #c0392b;
+		font-size: 38px;
+		margin-top:15px;
+		/*text-transform: uppercase;*/
+
+	}
+
+	/* Active Element */
+	.tagline ul li.active .counter{
+		color: #eee;
+		background-color: #c0392b;
+		border-color: #c0392b;
+	}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="tagline">
+		<div class="border">
+		<ul>
+			<li class="headline">
+				<div class="counter">*</div>
+				<div class="text">
+					<h1>Project Tagline</h1>
+				</div>
+			</li>
+			<li>
+				<div class="counter">1</div>
+				<div class="text">
+					<h2>Headline One</h2>
+					<p>
+						That's right. here I will be maintaining a list of very useful and handy jQuery plugins so that you don't have to search for the appropriate one while working in a project. 
+					</p>
+				</div>
+			</li>
+			<li class='active'>
+				<div class="counter">2</div>
+				<div class="text">
+					<h2>Headline Two</h2>
+					<p>
+						That's right. here I will be maintaining a list of very useful and handy jQuery plugins so that you don't have to search for the appropriate one while working in a project. 
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="counter">3</div>
+				<div class="text">
+					<h2>Headline Three</h2>
+					<p>
+						That's right. here I will be maintaining a list of very useful and handy jQuery plugins so that you don't have to search for the appropriate one while working in a project. 
+					</p>
+				</div>
+			</li>
+		</ul>
+		<div style="clear:both"></div>
+		</div>
+	</div>
+</body>
+</html>
